@@ -21,8 +21,6 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 
-import meta from './company/meta.png';
-import shopify from './company/shopify.png';
 import ambitech from './company/ambitech.png';
 import hp_white from './company/hp_white.png';
 import hp_blue from './company/hp_blue.png';
@@ -55,8 +53,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
   ambitech,
   hp_white,
   hp_blue,
