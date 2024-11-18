@@ -148,10 +148,9 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'August 2024 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Developed scalable React.js web applications with responsive, cross-browser-compatible designs, optimizing performance across devices.',
+      'Enhanced the IEEE UTD website by integrating interactive features like a chatbot, boosting user engagement by 30% fostering team collaboration.',
+      'Conducted code reviews and provided constructive feedback, promoting best practices and maintaining high-quality standards in development.',
     ],
   },
   {
