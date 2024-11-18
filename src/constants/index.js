@@ -25,6 +25,8 @@ import {
   tripguide,
   threejs,
   the_lady,
+  horse,
+  falcon,
 } from '../assets';
 
 export const navLinks = [
@@ -68,13 +70,13 @@ const services = [
 const sketches = [
   {
     title: 'The Lady',
-    image: the_lady,
-    link: 'https://www.instagram.com/p/C4nt-EkyCea/?img_index=1',
+    image: horse,
+    link: 'https://www.instagram.com/artxiac/p/Cu4lnXqqj7v/?img_index=1',
   },
   {
     title: 'React Native Developer',
-    image: the_lady,
-    link: 'https://www.instagram.com/p/C4nt-EkyCea/?img_index=1',
+    image: falcon,
+    link: 'https://www.instagram.com/p/CQEN1uVLGcr/',
   },
   {
     title: 'Backend Developer',

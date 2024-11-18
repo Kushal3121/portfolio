@@ -32,6 +32,8 @@ import jobit from './jobit.png';
 import tripguide from './tripguide.png';
 
 import the_lady from './sketches/the_lady.jpg';
+import horse from './sketches/horse.jpg';
+import falcon from './sketches/falcon.jpg';
 
 export {
   logo,
@@ -64,4 +66,6 @@ export {
   jobit,
   tripguide,
   the_lady,
+  horse,
+  falcon,
 };
