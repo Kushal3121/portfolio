@@ -6,41 +6,35 @@ import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
 import { publications } from '../constants';
 
-const PublicationCard = ({
-  index,
-  publication,
-  name,
-  designation,
-  company,
-  image,
-}) => (
-  <motion.div
-    variants={fadeIn('', 'spring', index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+const PublicationCard = ({ index, title, name, desc, date, link }) => (
+  <a
+    href={link || '#'}
+    onClick={(e) => !link && e.preventDefault()}
+    target={link ? '_blank' : undefined}
+    rel='noopener noreferrer'
   >
-    <p className='text-white font-black text-[48px]'>"</p>
+    <motion.div
+      variants={fadeIn('', 'spring', index * 0.5, 0.75)}
+      className='bg-black-200 p-10 rounded-3xl w-full hover:border-2 hover:border-purple-200 transition-all duration-100 ease-in-out'
+    >
+      <p className='text-white text-[18px]'>{title}</p>
 
-    <div className='mt-1'>
-      <p className='text-white tracking-wider text-[18px]'>{publication}</p>
-
-      <div className='mt-7 flex justify-between items-center gap-1'>
-        <div className='flex-1 flex flex-col'>
-          <p className='text-white font-medium text-[16px]'>
-            <span className='blue-text-gradient'>@</span> {name}
-          </p>
-          <p className='mt-1 text-secondary text-[12px]'>
-            {designation} of {company}
-          </p>
+      <div className='mt-1'>
+        <div className='w-30 h-[2px] bg-purple-200 mb-3 mt-3'></div>
+        <p className='text-secondary tracking-wider text-[16px] text-justify'>
+          {desc}
+        </p>
+        <div className='mt-7 flex justify-between items-center gap-1'>
+          <div className='flex-1 flex justify-between'>
+            <p className='text-white font-medium text-[16px]'>{name}</p>
+            <p className='mt-1 text-secondary text-[12px]'>
+              Published on {date}
+            </p>
+          </div>
         </div>
-
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
-        />
       </div>
-    </div>
-  </motion.div>
+    </motion.div>
+  </a>
 );
 
 const Publications = () => {

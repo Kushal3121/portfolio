@@ -205,28 +205,25 @@ const experiences = [
 
 const publications = [
   {
-    publication:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    title: '1. Smart Toll Booth System using Smart Contracts',
+    desc: 'Our paper introduces a GPS-based toll collection system addressing challenges like inconsistent rates, long waits, and traffic congestion in India. Unlike RFID-based systems, it uses real-time vehicle tracking for seamless, stop-free toll payments. Blockchain integration ensures security and transparency with decentralized smart contracts, enhancing toll collection efficiency and integrity.',
+    name: 'IEEE Explore',
+    date: 'May 2023',
+    link: 'https://ieeexplore.ieee.org/document/10126123',
   },
   {
-    publication:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
+    title: '2. Exploration of Crowd Detection Techniques',
+    desc: 'With a growing population, crowd density estimation has become crucial for safety and effective surveillance. People counting plays a vital role in preventing risks during large gatherings. Techniques like crowd anomaly detection, behavior analysis, and human action identification aid in monitoring crowd density. This project leverages image and video processing to estimate the number of individuals, benefiting public event organizers, security systems, and campus management.',
+    name: 'International Journal of Application or Innovation in Engineering & Management',
+    date: 'May 2022',
+    link: '',
   },
   {
-    publication:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    title: '3. Decentralized voting with Ethereum Blockchain ',
+    desc: 'Traditional e-voting reduced costs and improved convenience but lacked reliability and security, as it relied on centralized systems vulnerable to manipulation. This project proposes a decentralized e-voting system using blockchain technology to ensure voter identity protection, secure data exchange, and a transparent, tamper-proof voting process.',
+    name: 'International Journal of Innovation Engineering and Science Research',
+    date: 'July 2021',
+    link: 'https://ijiesr.com/liebrary/e31/922429333.pdf',
   },
 ];
 
