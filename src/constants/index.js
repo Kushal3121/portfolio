@@ -24,6 +24,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  the_lady,
 } from '../assets';
 
 export const navLinks = [
@@ -34,6 +35,10 @@ export const navLinks = [
   {
     id: 'work',
     title: 'Work',
+  },
+  {
+    id: 'projects',
+    title: 'Projects',
   },
   {
     id: 'contact',
@@ -57,6 +62,24 @@ const services = [
   {
     title: 'Content Creator',
     icon: creator,
+  },
+];
+
+const sketches = [
+  {
+    title: 'The Lady',
+    image: the_lady,
+    link: 'https://www.instagram.com/p/C4nt-EkyCea/?img_index=1',
+  },
+  {
+    title: 'React Native Developer',
+    image: the_lady,
+    link: 'https://www.instagram.com/p/C4nt-EkyCea/?img_index=1',
+  },
+  {
+    title: 'Backend Developer',
+    image: the_lady,
+    link: 'https://www.instagram.com/p/C4nt-EkyCea/?img_index=1',
   },
 ];
 
@@ -180,9 +203,9 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const publications = [
   {
-    testimonial:
+    publication:
       'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
     name: 'Sara Lee',
     designation: 'CFO',
@@ -190,7 +213,7 @@ const testimonials = [
     image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
-    testimonial:
+    publication:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: 'Chris Brown',
     designation: 'COO',
@@ -198,7 +221,7 @@ const testimonials = [
     image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
-    testimonial:
+    publication:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: 'Lisa Wang',
     designation: 'CTO',
@@ -273,4 +296,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  sketches,
+  technologies,
+  experiences,
+  publications,
+  projects,
+};
