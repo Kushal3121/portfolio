@@ -28,8 +28,8 @@ import utd from './company/utd.png';
 import pccoe from './company/pccoe.png';
 
 import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import toll from './toll.jpg';
+import insightgen from './insightgen.png';
 
 import the_lady from './sketches/the_lady.jpg';
 import horse from './sketches/horse.jpg';
@@ -63,9 +63,9 @@ export {
   utd,
   pccoe,
   carrent,
-  jobit,
-  tripguide,
+  toll,
   the_lady,
   horse,
   falcon,
+  insightgen,
 };
