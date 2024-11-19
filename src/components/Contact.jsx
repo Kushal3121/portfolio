@@ -1,5 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
 
 import { styles } from '../styles';
@@ -18,8 +20,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
@@ -33,8 +34,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_6gbs1be',
-        'template_ir29emg',
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: 'Kushal',
@@ -42,12 +43,19 @@ const Contact = () => {
           to_email: 'kushalchoudhary3121@gmail.com',
           message: form.message,
         },
-        '0tw9VvWFo_08VO6B9'
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          toast.success('Thank you! Your message has been sent.', {
+            position: 'bottom-right',
+            autoClose: 4000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+          });
 
           setForm({
             name: '',
@@ -58,8 +66,14 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
-          alert('Ahh, something went wrong. Please try again.');
+          toast.error('Something went wrong. Please try again.', {
+            position: 'bottom-right',
+            autoClose: 4000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+          });
         }
       );
   };
@@ -130,6 +144,8 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+
+      <ToastContainer />
     </div>
   );
 };
