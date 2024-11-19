@@ -150,7 +150,7 @@ const experiences = [
     points: [
       'Developed scalable React.js web applications with responsive, cross-browser-compatible designs, optimizing performance across devices.',
       'Enhanced the IEEE UTD website by integrating interactive features like a chatbot, boosting user engagement by 30% fostering team collaboration.',
-      'Conducted code reviews and provided constructive feedback, promoting best practices and maintaining high-quality standards in development.',
+      'Conducted code reviews and provided constructive feedback, promoting best practices and maintaining high-quality standards.',
     ],
   },
   {
