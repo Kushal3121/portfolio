@@ -31,10 +31,6 @@ import {
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
-  },
-  {
     id: 'work',
     title: 'Work',
   },
@@ -58,7 +54,7 @@ const services = [
     icon: web,
   },
   {
-    title: 'Problem Solving',
+    title: 'Backend Developer',
     icon: backend,
   },
   {

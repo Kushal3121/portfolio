@@ -38,10 +38,14 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      {/* <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
-      </motion.div>
+      </motion.div> */}
+
+      <h1 className={`${styles.heroHeadText} text-white mt-14`}>
+        Hi, I'm <span className='text-[#915EFF]'>Kushal</span>
+      </h1>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
