@@ -27,6 +27,7 @@ import {
   the_lady,
   horse,
   falcon,
+  banking,
 } from '../assets';
 
 export const navLinks = [
@@ -268,7 +269,28 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'InsightGen',
+    name: 'Horizon',
+    description:
+      'A modern banking app with a dashboard for managing accounts, real-time transactions, and seamless user-to-user transfers, built with Next.js 14.',
+    tags: [
+      {
+        name: 'next',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'plaid',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mysql',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: banking,
+    source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'Reviewer LLM',
     description:
       'Web application that showcases various products, providing users with AI-generated sentiment-based summaries of customer reviews for better insights.',
     tags: [

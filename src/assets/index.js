@@ -30,6 +30,7 @@ import pccoe from './company/pccoe.png';
 import carrent from './carrent.png';
 import toll from './toll.jpg';
 import insightgen from './insightgen.png';
+import banking from './banking.png';
 
 import the_lady from './sketches/the_lady.jpg';
 import horse from './sketches/horse.jpg';
@@ -68,4 +69,5 @@ export {
   horse,
   falcon,
   insightgen,
+  banking,
 };
