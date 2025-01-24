@@ -120,7 +120,7 @@ const Contact = () => {
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
               rows={7}
-              name=''
+              name='message'
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
