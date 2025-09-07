@@ -176,15 +176,27 @@ const experiences = [
     ],
   },
   {
-    title: 'UI/UX Developer Intern',
+    title: 'Software Developer',
     company_name: 'Ambitech Pvt Ltd',
     icon: ambitech,
     iconBg: '#E6DEDD',
-    date: 'September 2021 - March 2022',
+    date: 'Jan 2022 - Dec 2022',
     points: [
-      'Designed a user-friendly healthcare app for diabetic people, enabling glucose reading storage for multiple family members & reminders.',
-      'Integrated Bluetooth connectivity with a glucometer, enabling data syncing & online purchasing of medications & medical equipment.',
-      'Enhanced overall experience for older adults by designing an intuitive interface, resulting in a significant 40% increase in app usage.',
+      'Delivered patient platform (Angular, Spring Boot, AWS Lambda) for 10K+ users with MFA security.',
+      'Integrated Bluetooth glucometer sync + RazorPay API, handling $20K monthly transactions.',
+      'Improved mobile UI workflows with glucose alerts, boosting engagement by 40%.',
+    ],
+  },
+  {
+    title: 'UI/UX Intern',
+    company_name: 'Ambitech Pvt Ltd',
+    icon: ambitech,
+    iconBg: '#E6DEDD',
+    date: 'Jul 2021 - Dec 2021',
+    points: [
+      'Designed UX for mobile & web apps with Adobe XD/Figma, streamlining patient workflows.',
+      'Created prototypes & Storybook UI components for consistent healthcare workflows.',
+      'Conducted usability testing with patients & doctors, reducing navigation errors by 25%.',
     ],
   },
   {
