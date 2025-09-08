@@ -168,7 +168,7 @@ const experiences = [
     company_name: 'Hewlett Packard',
     icon: hp_blue,
     iconBg: '#E6DEDD',
-    date: 'January 2023 - July 2023',
+    date: 'Jan 2023 - Jul 2023',
     points: [
       "Spearheaded the development of Plantify (POC for HP's initiative) enabling the planting of a sapling based on customer purchases.",
       'Led agile practices as Scrum Master, coordinating UI design in Figma & React, with secure token integration, optimizing performance by 20%.',
