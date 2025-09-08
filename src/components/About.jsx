@@ -51,15 +51,15 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
       >
-        I am a Master's student in Computer Science at UT Dallas, with a dual
-        Bachelor's degree in Information Technology and Data Science. I
-        specialize in full-stack development, AI, and machine learning. My
-        experience includes working on diverse projects like building scalable
-        platforms, developing AI-driven solutions, and implementing blockchain
-        for secure transactions. With a strong foundation in various
-        technologies including React, Python, and cloud services, I strive to
-        create impactful solutions that enhance user experience and streamline
-        processes.
+        I am a Master’s student in Computer Science at UT Dallas with a
+        background in Information Technology and Data Science. I specialize in
+        full-stack development, cloud computing, and applied AI/ML, and have
+        worked on projects and internships spanning scalable platforms,
+        enterprise systems, and intelligent solutions. My experience includes
+        applying modern technologies like React, Node.js, Python, and AWS to
+        deliver robust, user-centric products. I am driven to create impactful
+        technologies that enhance user experience, optimize performance, and
+        solve complex real-world challenges.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
