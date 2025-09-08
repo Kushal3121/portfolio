@@ -143,7 +143,7 @@ const experiences = [
     company_name: 'IEEE UTD',
     icon: utd,
     iconBg: '#E6DEDD',
-    date: 'August 2024 - Present',
+    date: 'Aug 2024 - Apr 2025',
     points: [
       'Developed scalable React.js web applications with responsive, cross-browser-compatible designs, optimizing performance across devices.',
       'Enhanced the IEEE UTD website by integrating interactive features like a chatbot, boosting user engagement by 30% fostering team collaboration.',
