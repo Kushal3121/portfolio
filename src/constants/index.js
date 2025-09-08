@@ -155,7 +155,7 @@ const experiences = [
     company_name: 'Hewlett Packard',
     icon: hp_blue,
     iconBg: '#E6DEDD',
-    date: 'July 2023 - August 2024',
+    date: 'Jul 2023 - Aug 2024',
     points: [
       'Enhanced frontend performance in React.js using Webpack, Jenkins, Jira, and AWS, contributing to a scalable platform with improved security.',
       'Optimized the sign-up process by integrating Google Maps for auto-suggestions, reducing sign-up time by 70% & improving user experience.',
