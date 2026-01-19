@@ -64,6 +64,21 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li
+            className={`${
+              active === 'Resume' ? 'text-white' : 'text-secondary'
+            } hover:text-white text-[18px] font-medium cursor-pointer`}
+            onClick={() => setActive('Resume')}
+          >
+            <a
+              href='/Kushal_Choudhary.pdf'
+              target='_blank'
+              rel='noopener noreferrer'
+              download
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -94,6 +109,17 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li className='font-poppins font-medium cursor-pointer text-[16px] text-white'>
+                <a
+                  href='/Kushal_Choudhary.pdf'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  download
+                  onClick={() => setToggle(false)}
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
